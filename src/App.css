@@ -1,0 +1,112 @@
+.app {
+  background: linear-gradient(var(--color-dark-blue), var(--color-very-dark-blue));
+  max-width: 28rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 2rem rgba(0, 0, 0, 1);
+}
+
+.center {
+  text-align: center;
+}
+
+.star {
+  width: 3rem;
+  height: 3rem;
+  background-color: hsl(213, 19%, 21%);
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 1.5rem;
+}
+
+.ty-image {
+  margin-block: 1rem;
+}
+
+span {
+  padding: 0.25rem 1.25rem;
+  margin-block: 0.5rem 1.5rem;
+  display: inline-block;
+
+  color: var(--color-primary);
+  border-radius: 1.5rem;
+  background-color: var(--color-dark-blue);
+}
+
+.title {
+  font-size: 28px;
+}
+
+.subtext {
+  color: var(--color-light-grey);
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+  margin-block: 1.5rem;
+}
+
+form div button {
+  width: 3.5rem;
+  aspect-ratio: 1;
+
+  border-radius: 50%;
+  border: none;
+  background-color: var(--color-dark-blue);
+
+  cursor: pointer;
+  color: var(--color-light-grey);
+  font-weight: bold;
+  font-size: 1.1rem;
+
+  transition: all 200ms;
+}
+
+form div button:hover {
+  background-color: var(--color-primary);
+  color: var(--color-white);
+}
+
+form div button.selected {
+  color: white;
+  background-color: var(--color-light-grey);
+}
+
+form > button {
+  width: 100%;
+  padding: 0.8rem;
+
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 2rem;
+
+  cursor: pointer;
+  color: var(--color-white);
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+form button:disabled {
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 400px) {
+  .app {
+    margin: 2rem;
+  }
+
+  form div button {
+    width: 2.5rem;
+  }
+
+  form > button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+}

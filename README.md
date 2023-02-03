@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/kawsarahmed-012/interactive-rating-component.git)
-- Live Site URL: [Add live site URL here](https://kawsarahmed-012.github.io/interactive-rating-component/)
+- Solution URL: [Code](https://github.com/kawsarahmed-012/interactive-rating-component.git)
+- Live Site URL: [Live](https://interactive-rating-component-kawsar.netlify.app/)
 
 ## My process
 
